@@ -1,6 +1,8 @@
 # ![VPSToolBox](logo.png)
 
-[Telegram 频道](https://t.me/vpstoolbox) [English version](README_en.md)
+[English version](README_en.md)
+
+虽然脚本开发维护者[johnrosen1](https://github.com/johnrosen1)已删库跑路，但个人觉得挺好用的，做为备用保留了下来。
 
 厌倦了总是需要手动输入命令安装博客，网盘，RSS，邮箱，影音，代理了吗？VPSToolBox 提供了一整套全自动化的解决方案，解放双手，从今天开始！
 
@@ -20,7 +22,7 @@ apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsec
 
 ## 流程图
 
-![流程图](https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/images/flow.svg)
+![流程图](https://raw.githubusercontent.com/konaod/vpstoolbox/master/images/flow.svg)
 
 ## 如果觉得好用，欢迎打钱帮助开发或者尝试以下服务，😃❤️🤣
 
@@ -34,14 +36,14 @@ apt -o Acquire::AllowInsecureRepositories=true -o Acquire::AllowDowngradeToInsec
 
 手动测试方法
 ```bash
-curl --retry 5 -LO https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/install/route.sh
+curl --retry 5 -LO https://raw.githubusercontent.com/konaod/vpstoolbox/master/install/route.sh
 source route.sh
 route_test
 ```
 
 ## Demo
 
-![demo](https://raw.githubusercontent.com/johnrosen1/vpstoolbox/master/images/demo.png)
+![demo](https://raw.githubusercontent.com/konaod/vpstoolbox/master/images/demo.png)
 
 ## 前提条件及使用要点 Usage instruction
 
@@ -174,7 +176,7 @@ cat /root/.trojan/letcron.log
 3. **Commit** 修改
 4. **Push** 到你自己的 Fork
 5. 提交**Pull request**
-6. PR 要求请看[**pr 要求**](https://github.com/johnrosen1/vpstoolbox/tree/dev/install)
+6. PR 要求请看[**pr 要求**](https://github.com/konaod/vpstoolbox/tree/dev/install)
 
 ## Bug 反馈以及 Feature request
 
